@@ -1,0 +1,2 @@
+# playwrightOsgi
+OSGI Framework Application 
