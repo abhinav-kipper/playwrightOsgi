@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1624457484834
+Build-Jdk: 1.8.0_281
+Built-By: Administrator
+Bundle-Activator: HelloWorld
+Bundle-ClassPath: .,playwright-1.12.0.jar,gson-2.8.6.jar,Java-WebSocket-
+ 1.5.1.jar,slf4j-api-1.7.25.jar,driver-1.12.0.jar,driver-bundle-1.12.0.j
+ ar
+Bundle-ManifestVersion: 2
+Bundle-Name: playwrightOsgi
+Bundle-SymbolicName: org.example.playwrightOsgi
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile
+Embed-Transitive: true
+Embedded-Artifacts: playwright-1.12.0.jar;g="com.microsoft.playwright";a
+ ="playwright";v="1.12.0",gson-2.8.6.jar;g="com.google.code.gson";a="gso
+ n";v="2.8.6",Java-WebSocket-1.5.1.jar;g="org.java-websocket";a="Java-We
+ bSocket";v="1.5.1",slf4j-api-1.7.25.jar;g="org.slf4j";a="slf4j-api";v="
+ 1.7.25",driver-1.12.0.jar;g="com.microsoft.playwright";a="driver";v="1.
+ 12.0",driver-bundle-1.12.0.jar;g="com.microsoft.playwright";a="driver-b
+ undle";v="1.12.0"
+Import-Package: javax.net;resolution:=optional,javax.net.ssl;resolution:
+ =optional,org.osgi.framework;resolution:=optional;version="[1.8,2)",org
+ .slf4j.impl;resolution:=optional,sun.misc;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103
